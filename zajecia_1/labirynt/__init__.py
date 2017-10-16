@@ -12,8 +12,6 @@ for i in xrange(1,dlugosc+1):
         print znak[i][x]
         if znak[i][x]==poczatek:
             print "znalazlem"
-            if x+1<=szerokosc:
-                if znak[i][x+1]=='#':
-                    if znak[i][x-1]>=szerokosc:
-                    if znak[i][x-1]
-            
+            if x+1<=szerokosc and znak[i][x+1]=='#':
+                    if [x-1]>=szerokosc and znak[i][x+1]=='#':
+                        pass         
